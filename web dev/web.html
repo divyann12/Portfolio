@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="https://image-static.collegedunia.com/public/college_data/images/logos/1705041201download14.png"
+        alt = "Miet logo"
+        width="70" 
+        />
+        <h1>MIET College</h1>
+        <p>Smart Campus Helpdesk Portal</p>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Register Complaint</a></li>
+            <li><a href="">Resources</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <section>
+            <figure>
+                <img src="https://mietjmu.in/wp-content/uploads/2025/02/DJI_20241129113027_0387_D-Large.jpeg"
+                width="650"
+                />
+                <figcaption>MIET College - Main Campus</figcaption>
+            </figure>
+            <h2>Welcome to the Smart Campus Portal</h2>
+            <p>Your one-stop portal for registering complaints, accessing resources, and staying informed about campus life. We are here to help you with every issue — big or small.</p>
+        </section>
+        <hr>
+        <section>
+            <h2>About the Helpdesk</h2>
+            <p>The MIET Smart Campus Helpdesk is a digital platform that allows students to report issues related to hostels, labs, classrooms, library, transport, and more. Our team ensures timely resolution and keeps you updated on the status of your requests.
+            <blockquote>"Our mission is to provide a seamless experience for every student, ensuring their concerns are heard and resolved promptly."
+            </blockquote>
+            </p>
+            <h3>
+                How It works
+                </h3>
+                <ol>
+                <li>
+                    Fill the complaint form below with your details and issue
+                </li>
+                <li>
+                    Our team reviews and assigns the complaint
+                </li>
+                <li>
+                    Track progress through email notifications
+                </li>
+                <li>
+                    Confirm resolution once satisfied
+                </li>
+                </ol>
+        </section>
+        <hr>
+        <section>
+            <h2>Register a  Complaint</h2>
+            <p>
+                Fields marked with <strong>*</strong> are required.
+            </p>
+            <form>
+                <fieldset>
+                    <legend><h3>
+                        Student Details
+                    </h3></legend>
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" placeholder="Enter Full Name"/>
+                    <label for="Email">Email *</label>
+                    <input type="text" id="Email" placeholder="your@miet.edu"/>
+                    <label for="Roll Number">Roll Number *</label>
+                    <input type="text" id="Roll Number" placeholder="202XXXXXX"/>
+                    <label for="Phone">Phone Number *</label>
+                    <input type="text" id="Phone" placeholder="909090XXXX"/>
+                    <label for="Year">Year and Branch *</label>
+                    <select id="Year">
+                    <option value="">---Select --</option>
+                    <option value="CSE 1st Year">Cse 1st Year</option>
+                    <option value="CSE 2nd Year">Cse 2ns Year</option>
+                    <option value="CSE 3rd Year">Cse 3rd Year</option>
+                    <option value="CSE 4th Year">Cse 4th Year</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend><h3>Complaint Details</h3></legend>
+                    <label for="Complaint">Category* </label>
+                    <select id="Complaint"> 
+                        <option value="">--Select Category--</option>
+                        <option value="Hostel">Hostel</option>
+                        <option value="Mess">mess</option>
+                        <option value="Classroom">Classroom</option>
+                    </select>
+                    <label for="description">Description *</label>
+                    <textarea name="description" id="description"></textarea>
+                    <p>Priority</p>
+                    <label>
+                        <input type="radio" value="low" name="Priority"/>
+                        Low
+                    </label>
+                    <label>
+                        <input type="radio" value = "medium" name="Priority" />
+                        Medium
+                    </label>
+                    <label>
+                        <input type="radio" value = "high" name="Priority" />
+                        High
+                    </label>
+                    <label>
+                        <input type="radio" value="urgent" name="Priority"/>
+                        Urgent
+                    </label>
+                    <label for="location">
+                        Location
+                    <input type="text" id="location" list="locations" placeholder="start typing for suggestions."/>
+                    </label>
+                    <datalist id="locations">
+                        <option value="Main Block"></option>
+                        <option value="Hostel 1"></option>
+                        <option value="Lab 1"></option>
+                        <option value="Lab 2"></option>
+                        <option value="Food Court"></option>
+                    </datalist>
+                </fieldset>
+                <fieldset>
+                <legend><h3>Supporting Information(Optional)</h3></legend>
+                <label for="date">Date of Issue</label>
+                <input type="data" id="data" />
+                <label for="images">Upload Images</label>
+                <input type="file" id="images" accept="*images/*" multiple>
+                <label for="Satisfaction">Satisfaction before issue (1-10)</label>
+                <input type="range" id="Satisfaction" min="1" max="10" value="5" />
+                <label for="color">Resolution Tag</label>
+                <input type="color" id="color" value="#ff0000" />
+                </fieldset>
+                <fieldset>
+                    <legend><h3>Submit</h3></legend>
+                    <p>
+                        <input type="checkbox" value="accept" required /> I Confirm info is correct
+                    </p>
+                    <input type="submit" value="Submit Complaint" />
+                    <input type="reset" value="Clear Forem" />
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <h2>Resources & Downloads</h2>
+            <table>
+                <caption>Course Material and Helpdesk Resources</caption>
+                <thread>
+                    <tr>
+                        <th>Resource Name</th>
+                        <th>Type</th>
+                        <th>Size</th>
+                        <th>Download</th>
+                    </tr>
+                </thread>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

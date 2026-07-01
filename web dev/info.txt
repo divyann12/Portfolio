@@ -1,0 +1,79 @@
+- Applications are used to send and receive requests.
+- 3 tier Architecture
+1. Presentation layer - browser, html, css, js, react, angular, VU, Three JS.
+2. Application layer - Servers are here.(JAVA, NODE, Python, C++.)
+3. Data Layer - for storage of data.(MONGO, SUPABASE, FIRESTONE.)
+- API's are used for transfering data bw backend and frontend, databases.
+- backend is reponsible for handling logic
+- server is used for processing requests and sending responses.
+- Internet is global network of connected comp, servers, routers and data centers.
+- process of converting domain name into ip address is knowns as dnslookup. Cuz servers cant understand the names only the numbers.
+- ICANN (Internet corporation for accessing Names and Numbers)is used for mapping you're domain names.
+----------------------------------------------------------------------
+Day 2- Git & Github
+Commands of git:
+git init- to initialise the local repository (use this only once)
+git status - to check the status of the repository
+git add filename/foldername
+git add filename filename
+git add -A 
+
+working area                                               staging area
+file is here when any modification is done.                file is here when used add command.
+
+git commit -m "Message" -create's a version.(Files that are in staging area can only be commited)
+git log / git log -a = to see version info.
+head is where your files are pointing
+git checkout commitID/ branchName.
+
+Github:
+git remote add origin https://github.com/divyann12/Demo.git "Online repo link"
+git remote -v
+git branch- M main "Renaming Branch link"
+git branch
+git push origin branchName
+-------------------------------------------------------------
+Day-3
+commands of git bash 
+ls = to list files
+ls -a = hiddn files in folder
+pwd = working directory
+git status
+git init
+to bring all code to your laptop :
+go to github copy the https link from code section repo then use command git clone (repo url)
+the name of folder will be same as the copied repo
+when cloning use only git push
+
+git push
+git fetch - to check remote changes without affecting 
+git pull
+
+Todays task 1:
+git clone url
+git clone foldername
+cd foldername
+code .
+modify index.html file
+git add .
+git commit -m "Message"
+git push
+git pull - to bring latest code to the directory
+-------------------------------------------------------
+Task 2:
+go to github open index.html file, edit the file and commit changes
+git fetch
+git pull 
+git pull origin main
+--------------------------------------------------------------------
+Day 4:
+Git Branches
+Junior dev make pull requests and then senior developer merges it to the main production of code.
+git branch branchName - creating new branch
+git branch - checking local branch
+git branch -a : for checking local branches and remote branches
+git switch branchName - for switching to new branch
+git switch -c branchName - for creating and switching to new branch immediatly
+git checkiut -b branchName - for creating and switching to new branch immediatly
+git check out branchName - 
+git switch feature/ui
