@@ -1,2 +1,0 @@
-Sub Array: Continous part of the array with unchanged order of the elements.
-Sliding Window:
