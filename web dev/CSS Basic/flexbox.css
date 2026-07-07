@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.flex-Container, .flex-item2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+.flex-item1{
+    gap: 10px;
+}
+.flex-Container{
+    padding: 20px;
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    font-size: 30px ;
+    word-spacing: 10px;
+}
+.img{
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 8px;
+}
+.img > p{
+    color: white;
+    word-spacing: 10px;
+    font-size: 24px ;
+}
+.img > p > span{
+    display: inline-block;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 8px;
+}
+.projects {
+  margin: 30px;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 60vh;
+  margin: 30px;
+  gap: 12px;
+}
+.projects-container > div {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.projects-container > div > p {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 8px;
+}
+.Project1,
+.Project6 {
+  background-image: url("https://www.w3schools.com/w3images/house5.jpg");
+}
+.Project2,
+.Project5{
+  background-image: url("https://www.w3schools.com/w3images/house2.jpg");
+}
+.Project3,
+.Project8 {
+  background-image: url("https://www.w3schools.com/w3images/house3.jpg");
+}
+.Project4,
+.Project7{
+  background-image: url("https://www.w3schools.com/w3images/house4.jpg");
+}
+
+.people-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.people-container > div > img {
+  width: 100%;
+  display: block;
+}
+.people-button {
+  width: 100%;
+  border: 0px;
+  padding: 6px 0px;
+  cursor: pointer;
+}
